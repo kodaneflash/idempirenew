@@ -20,6 +20,8 @@ const policies = {
   ],
   'connect-src': [
     "'self'",
+    'https://idempire.us', // Add your domain here
+    'https://idempire.payloadcms.app', // Add the Payload CMS domain
     'https://checkout.stripe.com',
     'https://api.stripe.com',
     'https://maps.googleapis.com',
